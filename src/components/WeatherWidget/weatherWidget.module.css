@@ -1,0 +1,17 @@
+.weatherWidgetInfoContainer {
+    composes: flex from global;
+    composes: items-center from global;
+}
+
+.weatherCity {
+    composes: text-xs from global;
+}
+
+.weatherTemperature {
+    composes: text-xs from global;
+    composes: text-blue-500 from global;
+}
+
+.weatherIcon {
+    composes: w-10 from global;
+}
